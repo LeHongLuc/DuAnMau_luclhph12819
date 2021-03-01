@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheLoaiActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edMaTheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Thể Loại" />
+    <EditText
+        android:id="@+id/edTentheloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Tên Thể Loại" />
+    <EditText
+        android:id="@+id/edViTri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="vị trí" />
+    <EditText
+        android:id="@+id/edMota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mô tả" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btnAddUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addTheLoai"
+            android:text="Lưu" />
+        <Button
+            android:id="@+id/btnCancelUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Huỷ" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnShowUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showUsers"
+        android:text="Show" />
+</LinearLayout>

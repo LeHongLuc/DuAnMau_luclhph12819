@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duanmau_luclhph12819">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DuAnMau_luclhph12819">
+        <activity android:name=".TheLoaiActivity"></activity>
+        <activity android:name=".ThongKeDoanhThuActivity" />
+        <activity android:name=".Sachbanchay_Activity" />
+        <activity android:name=".List_HDCT_Activity" />
+        <activity android:name=".HoaDonChiTietActivity" />
+        <activity android:name=".HoaDonActivity" />
+        <activity android:name=".List_HoaDon_Activiti" />
+        <activity android:name=".List_Sach_Activity" />
+        <activity android:name=".ThemSachActivity" />
+        <activity android:name=".List_TheLoai_Activity" />
+        <activity android:name=".NguoiDungDetailActivity" />
+        <activity android:name=".NguoiDungActivity" />
+        <activity android:name=".doiMatKhau_Activity" />
+        <activity android:name=".List_NguoiDung_Activity" />
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
