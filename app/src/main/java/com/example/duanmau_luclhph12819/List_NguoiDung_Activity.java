@@ -92,7 +92,7 @@ public class List_NguoiDung_Activity extends AppCompatActivity {
                 //xoa tinh trang luu tru truoc do
                 edit.clear();
                 edit.commit();
-                intent = new Intent(List_NguoiDung_Activity.this, MainActivity.class);
+                intent = new Intent(List_NguoiDung_Activity.this, Login_Activity.class);
                 startActivity(intent);
                 break;
         }
